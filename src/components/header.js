@@ -15,7 +15,7 @@ const moreLinks = [
   },
   {
     text: "Resume",
-    url: "https://gatsbyjs.com/showcase/",
+    url: "https://old.abhinavgorantla.me/abhinav_gorantla_resume.pdf",
   },
   {
     text: "Stuff i like to do",
