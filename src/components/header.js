@@ -11,7 +11,7 @@ const moreLinks = [
   },
   {
     text: "Leetcode",
-    url: "https://gatsbyjs.com/starters/",
+    url: "https://leetcode.com/AbhinavGorantla/",
   },
   {
     text: "Resume",
@@ -19,7 +19,7 @@ const moreLinks = [
   },
   {
     text: "Stuff i like to do",
-    url: "https://www.gatsbyjs.com/contributing/",
+    url: "page-2",
   },
 ]
 
