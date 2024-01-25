@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import * as styles from './index.module.css'
 
 const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
 
@@ -44,7 +45,7 @@ const Header = ({ siteTitle }) => (
     >
       {siteTitle}
     </Link>
-    <div style={{display: `flex`, justifyContent: `space-around`}}>
+    <div className={styles.header}>
       {moreLinks.map((link, i) => (
         <React.Fragment key={link.url}>
           <a href={`${link.url}${utmParameters}`} style={{padding:'0rem 1rem'}}>{link.text}</a>

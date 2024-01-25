@@ -70,8 +70,8 @@ const IndexPage = () => (
         <p className={styles.intro}>
           I am a computer science graduate student at Arizona State University, Tempe. I am interested in the fields of backend development, DevOps, artificial intelligence, and cloud computing, and I am striving to enhance my expertise in these fields. Currently, I am actively engaged in exploring the intricacies of backend technologies such as Django, while also delving into the vast possibilities of artificial intelligence across various applications. 
         </p>
-        <div style={{ width: '200px', height: '200px', borderRadius: '50%', overflow: 'hidden' }}>
-          <img src="https://avatars.githubusercontent.com/u/56104674?v=4" />
+        <div style={{ width: '12em', height: '9em', borderRadius: '100%', overflow: 'hidden', padding: '0', margin: '1em' }} className={styles.img}>
+          <img src="https://avatars.githubusercontent.com/u/56104674?v=4" style={{margin: '0', padding: '0'}}/>
         </div>
       </div>
     </div>
