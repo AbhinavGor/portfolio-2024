@@ -48,7 +48,7 @@ const Header = ({ siteTitle }) => (
     <div className={styles.header}>
       {moreLinks.map((link, i) => (
         <React.Fragment key={link.url}>
-          <a href={`${link.url}${utmParameters}`} style={{padding:'0rem 1rem'}}>{link.text}</a>
+          <a href={`${link.url}${utmParameters}`} style={{padding:'0rem 1rem'}} target="_blank">{link.text}</a>
           {i !== moreLinks.length - 1 && <> | </>}
         </React.Fragment>
       ))}

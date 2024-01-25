@@ -75,12 +75,16 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
+    <div className="intro">
+      <strong>P.S.</strong> To access the older version of this website, click <a href="https://old.abhinavgorantla.me" target="_blank">here</a>.
+    </div>
     <ul className={styles.list}>
       {links.map(link => (
         <li key={link.url} className={styles.listItem}>
           <a
             className={styles.listItemLink}
             href={`${link.url}${utmParameters}`}
+            target="_blank"
           >
             {link.text} ↗
           </a>
